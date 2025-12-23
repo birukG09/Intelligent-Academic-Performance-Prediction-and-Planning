@@ -1,9 +1,9 @@
 ![](https://github.com/birukG09/Intelligent-Academic-Performance-Prediction-and-Planning/blob/c8edd974ffd806f88f97ec54c281447d378d2bc0/FireShot%20Capture%20006%20-%20%20-%20%5B0e87806e-1106-4ed3-af81-540e24a6e09e.riker.prod.repl.run%5D.png)📊 GPA Tracker – Machine Learning–Based GPA Prediction System
 📌 Project Overview
 GPA Tracker is a data-driven academic performance analysis system that predicts and tracks student GPA using machine learning (Random Forest Regression). The project combines a Python backend, a modern web frontend, and a real student performance dataset to demonstrate how data science can support academic decision-making.
-![Description of Image](image_url)
+![Description of Image](https://github.com/birukG09/Intelligent-Academic-Performance-Prediction-and-Planning/blob/ed405667a06ee0361fc097ac18ef16f20154fc6e/FireShot%20Capture%20015%20-%20GPA%20Tracker%20-%20BiTS%20Connect%20-%20%5B%5D.png)
 The system analyzes student-related factors such as scores, performance metrics, and historical data to generate accurate GPA predictions.
-![Description of Image](image_url)
+![](https://github.com/birukG09/Intelligent-Academic-Performance-Prediction-and-Planning/blob/ed405667a06ee0361fc097ac18ef16f20154fc6e/FireShot%20Capture%20015%20-%20GPA%20Tracker%20-%20BiTS%20Connect%20-%20%5B%5D.png)
 🧠 Core Features
 📈 GPA Prediction using Random Forest Algorithm
 
