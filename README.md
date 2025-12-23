@@ -1,9 +1,9 @@
-📊 GPA Tracker – Machine Learning–Based GPA Prediction System
+![](image_url)📊 GPA Tracker – Machine Learning–Based GPA Prediction System
 📌 Project Overview
 GPA Tracker is a data-driven academic performance analysis system that predicts and tracks student GPA using machine learning (Random Forest Regression). The project combines a Python backend, a modern web frontend, and a real student performance dataset to demonstrate how data science can support academic decision-making.
-
+![Description of Image](image_url)
 The system analyzes student-related factors such as scores, performance metrics, and historical data to generate accurate GPA predictions.
-
+![Description of Image](image_url)
 🧠 Core Features
 📈 GPA Prediction using Random Forest Algorithm
 
