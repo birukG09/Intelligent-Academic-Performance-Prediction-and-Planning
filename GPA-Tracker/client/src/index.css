@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Minimalist High Contrast Palette */
+  --background: 0 0% 100%; /* White */
+  --foreground: 0 0% 9%;   /* Black-ish */
+  
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 9%;
+  
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 9%;
+  
+  --primary: 142 71% 45%; /* Vivid Green */
+  --primary-foreground: 0 0% 100%;
+  
+  --secondary: 0 0% 96%;
+  --secondary-foreground: 0 0% 9%;
+  
+  --muted: 0 0% 96%;
+  --muted-foreground: 0 0% 45%;
+  
+  --accent: 142 71% 45%;
+  --accent-foreground: 0 0% 100%;
+  
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 0 0% 90%;
+  --input: 0 0% 90%;
+  --ring: 142 71% 45%;
+  
+  --radius: 0.5rem;
+
+  /* Typography */
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Space Grotesk', sans-serif;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply tracking-tight;
+  }
+}
+
+/* Custom Scrollbar for a cleaner look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #e5e7eb;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d1d5db;
+}
