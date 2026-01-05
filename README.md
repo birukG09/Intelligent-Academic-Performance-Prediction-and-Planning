@@ -70,7 +70,7 @@ Educational data science projects
 Machine learning demonstrations for students
 
 📌 Future Improvements
-User authentication
+User authentication.
 
 Real-time GPA updates
 
