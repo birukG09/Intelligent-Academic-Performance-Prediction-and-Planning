@@ -41,7 +41,7 @@ GPA-Tracker/
 ⚙️ Technologies Used
 Python – Machine learning & data processing
 
-Random Forest Regression – GPA prediction model
+Random Forest Regressions – GPA prediction model
 
 HTML / Tailwind CSS – Frontend UI
 
